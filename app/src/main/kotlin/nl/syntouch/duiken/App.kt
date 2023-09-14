@@ -3,8 +3,12 @@
  */
 package nl.syntouch.duiken
 
+import nl.syntouch.utils.Assert.Companion.assertEquals
+
+
 fun main() {
     var name:String? = "Kevin"
+    assertEquals(5, name?.length ?: throw IllegalArgumentException())
     name = null
 
     val names:List<String> = listOf("Raymond", "Poedel")
