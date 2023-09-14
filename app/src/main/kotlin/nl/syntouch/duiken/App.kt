@@ -4,9 +4,7 @@
 package nl.syntouch.duiken
 
 fun main() {
-
     var name:String? = "Kevin"
-
     name = null
 
     val names:List<String> = listOf("Raymond", "Poedel")
@@ -14,8 +12,4 @@ fun main() {
     for (name in names) {
         println(name!!.length)
     }
-
-
-
-
 }
