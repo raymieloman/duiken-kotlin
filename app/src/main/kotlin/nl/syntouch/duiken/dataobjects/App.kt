@@ -1,7 +1,7 @@
 package nl.syntouch.duiken.dataobjects
 
 /*
-a data object has a friendly toString, it prints the simpleName of the class (Sun, Moon)
+a data object has a friendly toString, it prints the simpleName of the class (in the case Sun)
  */
 fun main() {
     println(Sun)

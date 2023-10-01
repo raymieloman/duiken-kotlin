@@ -1,6 +1,6 @@
 package nl.syntouch.duiken.scopefunctions
 
-import nl.syntouch.duiken.destructuring.Wine
+import nl.syntouch.duiken.destructuring.regularclasswithdestructuring.Wine
 
 /*
 this demo shows the scope functions in action
